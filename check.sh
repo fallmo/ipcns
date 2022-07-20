@@ -1,5 +1,5 @@
 #/bin/bash
-
+cd $(dirname "$0")
 new_ip=$(curl -s ipecho.net/plain && echo || echo "failed");
 old_ip=$(cat ./ip 2> /dev/null);
 

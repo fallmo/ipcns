@@ -1,3 +1,4 @@
+cd $(dirname "$0")
 source ./vars.conf
 
 function send_mail {

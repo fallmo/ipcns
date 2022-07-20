@@ -1,3 +1,4 @@
+cd $(dirname "$0")
 source ./vars.conf
 
 if [ "$check_frequency" == "" ] 
