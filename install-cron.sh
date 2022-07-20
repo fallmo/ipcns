@@ -1,3 +1,5 @@
+source ./vars.conf
+
 if [ "$check_frequency" == "" ] 
 then 
     check_frequency="*/5 * * * *"
